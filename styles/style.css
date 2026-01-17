@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+.container{
+        max-width: 1060px;
+        margin: 0 auto;
+}
+body{
+    background-color: rgba(0,0,0,1);
+    color: white;
+}
+header{
+    padding-top: 57px;
+    background-color: rgba(255, 255, 255, 0.082);
+
+}
+header nav{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    width: 465px;
+    height: 46px;
+    border-radius: 40px;
+    list-style: none;
+    display: flex;
+    gap: 47px;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px;
+}
+header nav ul li{
+    color: #ffffff;
+    font-size: 18px;
+}
+header nav ul li:first-child{
+    border-radius: 46px;
+background: rgba(230, 83, 60, 1);
+width: 92px;
+height: 38px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 8px 20px 8px 20px;
+}
+header nav #menu{
+    display: none;
+}
+nav a{
+    text-decoration: none;
+    font-style: italic;
+color: rgba(230, 83, 60, 1);
+font-style: Extra Bold Italic;
+font-size: 36px;
+font-weight: 800;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.banner-container{
+        max-width: 1060px;
+    margin: 0 auto;
+    padding-top:32px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-container .banner-left{
+    max-width: 520px;
+}
+.banner-container .banner-left h1{
+    font-size: 78px;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+.banner-container .banner-left p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 44px;
+}
+.btns{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.banner-container .banner-left button{
+    width: 224px;
+    height: 54px;
+    color: white;
+    background-color: #E6533C;
+    border-radius: 42px;
+}
+.banner-container .banner-left button:nth-child(1){
+    background-color: #E6533C;
+    border: none;
+}
+.banner-container .banner-left button:nth-child(2){
+    background-color:transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.banner-container .banner-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.banner-container .banner-right> div{
+    position: absolute;
+    top: 120px;
+    right: -60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+background-color: rgba(255, 255, 255, 0.1);
+}
+#toltip2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 206px;
+    right: 240px;
+    top: 400px;
+    background-color: rgba(48, 48, 48, 0.82);
+
+}
+#toltip2 span{
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+.section1{
+    padding-top: 100px;
+
+}
+
+.section1> h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+.section1> p{
+    max-width: 671px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 58px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.card {
+    text-align: center;
+}
+.card img{
+    border-radius: 50%;
+}
+.card h3{
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section2{
+    padding: 100px 0;
+}
+.section2 .container{
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    border-radius: 18px;
+background: rgba(34, 34, 34, 1);
+padding: 30px;
+
+}
+.section2 .tests{
+    max-width: 443px;
+}
+.section2 .container h1{
+    font-size: 48px;
+}
+.section2 .container p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+    margin-top: 14px;
+}
+.section2 button{
+    width: 224px;
+    height: 54px;
+    color: white;
+    background-color: #E6533C;
+    border-radius: 42px;
+    border: none;
+}
+.section2 img{
+width: 366px;
+height: 312px;
+object-fit: cover;
+object-position: center;
+border-radius: 18px;
+}
+
+.section3 h1{
+    font-size: 48px;
+    margin-bottom: 14px;
+}
+.section3 p{
+    line-height: 24px;
+    margin-bottom: 58px;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 670px;
+}
+
+.grid-container{
+    max-width: 1060px;
+    height: 403px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.grid-container img{
+    width: 100%;
+    height: 100%;
+}
+.grid-container .box1{
+    grid-column: span 1;
+    background:linear-gradient(rgba(6, 255, 210, 0.5)), url(../images/exercise1.jpg);
+    /* background-color: #E6533C;
+    background-blend-mode: multiply; */
+    background-size: cover;
+
+
+
+}
+.grid-container .box2{
+    grid-column: span 2;
+    background: linear-gradient(rgba(255, 0, 0, 0.3)),url(../images/exercise2.png);
+    background-size: cover;
+
+}
+.grid-container .box3{
+    grid-column: span ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)),url(../images/exercise3.png);
+    background-size: cover;
+
+}
+.grid-container .box4{
+    grid-column: span 2;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)),url(../images/exercise4.png);
+    background-size: cover;
+
+}
+.grid-container .box5{
+    grid-column: span ;
+    background: linear-gradient(rgba(66, 255, 0, 0.3)),url(../images/exercise5.jpg);
+    background-size: cover;
+
+}
+.grid-container .box6{
+    grid-column: span ;
+    background: linear-gradient(rgba(0, 71, 255, 0.3)),url(../images/exercise6.jpg);
+    background-size: cover;
+
+}
+
+
+.team-section{
+    padding: 88px 0;
+}
+
+.team-section h1{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.team-section p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    max-width: 671px;
+    margin: 0 auto;
+}
+
+.team-section .d{
+    margin-bottom: 54px;
+}
+.team-card-container{
+    width: 1060px;
+    height: 604px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.team-card-container>div{
+    border-radius: 20px;
+}
+.team-card-container .boxs2{
+    background: linear-gradient(rgba(0, 0, 0, 0.2)),url(../images/trainer2.png);
+    background-size: cover;
+}
+.team-card-container .boxs3{
+    background: linear-gradient(rgba(0, 0, 0, 0.2)),url(../images/trainer3.png);
+    background-size: cover;
+}
+.team-card-container .boxs4{
+    background: linear-gradient(rgba(0, 0, 0, 0.2)),url(../images/trainer4.png);
+    background-size: cover;
+    background-position: -100px;
+}
+.team-card-container .boxs5{
+    background: linear-gradient(rgba(0, 0, 0, 0.2)),url(../images/trainer5.png);
+    background-size: cover;
+}
+.team-card-container .boxs6{
+    background: linear-gradient(rgba(0, 0, 0, 0.2)),url(../images/trainer6.png);
+    background-size: cover;
+}
+.team-card-container .boxs1{
+    background: linear-gradient(rgba(0, 0, 0, 0.2)),url(../images/trainer1.png);
+    background-size: cover;
+}
+@media screen and (max-width:800px) {
+    header,.section1,.section3{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-container{
+    flex-direction: column;
+
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+}
+.section2 .container{
+    flex-direction: column;
+    gap: 40px;
+}
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    header nav ul{
+        display: none;
+    }
+ header nav #menu{
+    display: block;
+}   
+header{
+    padding: 30px 30px;
+}
+.banner-container{
+    flex-direction: column;
+
+}
+.banner-container .banner-left h1{
+    font-size: 36px;
+}
+#toltip2{
+    right: 200px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+
+.grid-container{
+    height: 1500px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.grid-container>div{
+    grid-column: span 1;
+}
+.team-section{
+    padding-top: 20px;
+}
+.team-card-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    height: 1604px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,472px);
+}
+}
